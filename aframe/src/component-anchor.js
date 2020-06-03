@@ -115,7 +115,7 @@ AFRAME.registerComponent('arjs-anchor', {
                 markerParameters.markersAreaEnabled = false
             } else if (_this.data.preset === 'zach') {
                 markerParameters.type = 'pattern'
-                markerParameters.patternUrl = 'https://raw.githubusercontent.com/ZenMakerLabInc/AR.js/Exploration/myApp/marker.patt' 
+                markerParameters.patternUrl = 'https://raw.githubusercontent.com/ZenMakerLabInc/AR.js/master/three.js/examples/marker-training/examples/pattern-files/pattern-hiro.patt' 
                 markerParameters.markersAreaEnabled = false
             }
 
